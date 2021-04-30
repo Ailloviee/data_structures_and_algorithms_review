@@ -21,15 +21,16 @@ class Solution:
         return l == l[::-1]
 
 # Another solution would be using two pointers and recursive. (One pointer goes to end, then comes back while comparing value with another pointer starting at head of list)
-#         self.front = head
+    # def isPalindrome(self, head: ListNode) -> bool:    
+    #     self.front = head
         
-#         def recursive(current=head):
-#             if current:
-#                 if not recursive(current.next):
-#                     return False
-#                 if self.front.val != current.val:
-#                     return False
-#                 self.front = self.front.next
-#             return True
+    #     def recursive(current=head):
+    #         if current:
+    #             if not recursive(current.next):
+    #                 return False
+    #             if self.front.val != current.val:
+    #                 return False
+    #             self.front = self.front.next
+    #         return True
         
-#         return recursive()
+    #     return recursive()
